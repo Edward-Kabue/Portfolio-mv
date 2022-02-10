@@ -173,6 +173,108 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.card-1 img {
+  left: 16px;
+  top: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.card-1 .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-1 .sub {
+  display: flex;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-1 ul {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-1 .sub li {
+  padding-left: 14px;
+  list-style-type: none;
+}
+
+.card-1 .sub p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-1 .article {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.card-1 .article .built-with {
+  margin-bottom: 12px;
+}
+
+.card-1 .built-with button {
+  color: #6070ff;
+  outline: none;
+  border: none;
+  position: static;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card-1 .built-with #c {
+  margin-left: 4px;
+}
+
+.card-1 .built-with #j {
+  margin-left: 4px;
+}
+
+.card-1 .prompt button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #ffff;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
 }
 
 .card-2 {
@@ -182,6 +284,106 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+}
+
+.card-2 img {
+  left: 16px;
+  top: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.card-2 .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-2 .sub {
+  display: flex;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-2 ul {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-2 .sub li {
+  padding-left: 14px;
+  list-style-type: none;
+}
+
+.card-2 .sub p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-2 .article {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.card-2 .article .built-with {
+  margin-bottom: 12px;
+}
+
+.card-2 .built-with button {
+  color: #6070ff;
+  outline: none;
+  border: none;
+  position: static;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card-2 .built-with #c {
+  margin-left: 4px;
+}
+
+.card-2 .built-with #j {
+  margin-left: 4px;
+}
+
+.card-2 .prompt button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #ffff;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
 }
 
 .card-3 {
