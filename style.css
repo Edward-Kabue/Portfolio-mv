@@ -134,7 +134,7 @@ body .container .text {
 
 body .container .connect {
   color: #7f8cff;
-  padding-left: 14px;
+  padding-left: 24px;
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: row;
@@ -145,7 +145,7 @@ body .container .connect {
 
 body .container .socialmedia {
   display: flex;
-  padding-left: 24px;
+  padding-left: 14px;
   margin: 12px;
 }
 
