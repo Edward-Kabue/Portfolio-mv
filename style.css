@@ -102,6 +102,14 @@ body .container .lastone {
   z-index: 1;
 }
 
+body .container .lp {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 110px;
+}
+
 body .container .header-text {
   padding-right: 100px;
   margin-left: 24px;
