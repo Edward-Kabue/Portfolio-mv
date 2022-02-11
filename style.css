@@ -45,7 +45,7 @@ body .container {
   height: 600px;
   font-family: Poppins, sans-serif;
   border-radius: 1em;
-  background-color: #ffff;
+  background-color: #fff;
 }
 
 body .container .texted {
@@ -272,7 +272,7 @@ body .container .socialmedia li {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background-color: #ffff;
+  background-color: #fff;
   padding-top: 4px;
   padding-left: 12px;
   padding-right: 12px;
@@ -282,7 +282,7 @@ body .container .socialmedia li {
 .card-2 {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -385,7 +385,7 @@ body .container .socialmedia li {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background-color: #ffff;
+  background-color: #fff;
   padding-top: 4px;
   padding-left: 12px;
   padding-right: 12px;
@@ -395,7 +395,7 @@ body .container .socialmedia li {
 .card-3 {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -479,10 +479,6 @@ body .container .socialmedia li {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
 }
 
 .card-3 .built-with #c {
@@ -684,7 +680,7 @@ body .about .prompt {
 body .about .prompt button {
   border: 1px solid;
   border-radius: 8px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
