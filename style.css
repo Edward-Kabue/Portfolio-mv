@@ -749,46 +749,6 @@ body .about .prompt button {
   margin-left: -60px;
 }
 
-.languages .lang-drop ul li #buttons {
-  display: grid;
-}
-
-.languages .lang-drop ul li #buttons button {
-  display: flex;
-  margin-bottom: 12px;
-  margin-right: 36px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  padding-bottom: 12px;
-  padding-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  align-items: center;
-}
-
-.languages .lang-drop ul li #buttons button img {
-  display: flex;
-  padding-left: 24px;
-  padding-right: 10px;
-}
-
-.languages .lang-drop ul li #buttons button p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  margin-top: 21px;
-  margin-left: 12px;
-}
-
 .card-1 .prompt button:hover {
   background-color: #6070ff;
   color: white;
@@ -809,6 +769,11 @@ body .about .prompt button {
   color: white;
 }
 
+body .about .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
 .languages .lang-drop ul li #buttons {
   display: grid;
 }
@@ -847,9 +812,4 @@ body .about .prompt button {
   align-items: center;
   margin-top: 21px;
   margin-left: 12px;
-}
-
-body .about .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
 }
