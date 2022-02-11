@@ -211,7 +211,7 @@ body .container .socialmedia li {
   line-height: 16px;
 }
 
-.card-1 .sub li {
+.card-1 .sub ul li {
   padding-left: 14px;
   list-style-type: none;
 }
@@ -437,7 +437,7 @@ body .container .socialmedia li {
   line-height: 16px;
 }
 
-.card-3 .sub li {
+.card-3 .sub ul li {
   padding-left: 14px;
   list-style-type: none;
 }
@@ -469,7 +469,10 @@ body .container .socialmedia li {
   border: none;
   position: static;
   border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
   margin-top: 12px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -518,6 +521,7 @@ body .container .socialmedia li {
   margin-top: 88px;
   padding-bottom: 20px;
 }
+
 .card-4 img {
   left: 16px;
   top: 16px;
@@ -550,7 +554,7 @@ body .container .socialmedia li {
   line-height: 16px;
 }
 
-.card-4 .sub li {
+.card-4 .sub ul li {
   padding-left: 14px;
   list-style-type: none;
 }
@@ -605,13 +609,13 @@ body .container .socialmedia li {
 .card-4 .prompt button {
   border: 1px solid;
   border-radius: 8px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background-color: #ffff;
+  background-color: #fff;
   padding-top: 4px;
   padding-left: 12px;
   padding-right: 12px;
@@ -621,7 +625,7 @@ body .container .socialmedia li {
 body .about {
   min-width: 100%;
   font-family: Poppins, sans-serif;
-  background-color: #ffff;
+  background-color: #fff;
   border-top-right-radius: 100px;
 }
 
@@ -663,7 +667,6 @@ body .about .connect {
 
 body .about .socialmedia {
   display: flex;
-  justify-content: row-reverse;
   padding-left: 14px;
   margin: 12px;
 }
@@ -687,7 +690,7 @@ body .about .prompt button {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background-color: #ffff;
+  background-color: #fff;
   padding-top: 4px;
   padding-left: 12px;
   padding-right: 12px;
