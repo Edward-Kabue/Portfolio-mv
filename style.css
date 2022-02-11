@@ -598,7 +598,7 @@ body .container .socialmedia li {
   margin-left: 4px;
 }
 
-.card-4 .built-with #c {
+.card-4 .built-with #r {
   margin-left: 4px;
 }
 
@@ -691,4 +691,88 @@ body .about .prompt button {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
+}
+
+.languages {
+  margin-top: 24px;
+}
+
+.languages .lang-drop ul li {
+  display: grid;
+  margin-left: 24px;
+}
+
+.languages .lang-drop .lang-head {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
+}
+
+.languages .lang-drop ul li #buttons {
+  display: grid;
+}
+
+.languages .lang-drop ul li #buttons button {
+  display: flex;
+  margin-bottom: 12px;
+  margin-right: 36px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.languages .lang-drop ul li #buttons button img {
+  display: flex;
+  padding-left: 24px;
+}
+
+.languages .lang-drop ul li #buttons button p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  margin-left: 12px;
+}
+.languages .lang-drop .framework {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
+}
+
+.languages .lang-drop .skills {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -50px;
+}
+
+.languages .lang-drop .skills img {
+  padding-left: 40px;
 }
