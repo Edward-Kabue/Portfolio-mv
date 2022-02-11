@@ -231,6 +231,7 @@ body .container .socialmedia li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .card-1 .article .built-with {
@@ -277,6 +278,11 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
+}
+
+.card-1 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .card-2 {
@@ -344,6 +350,7 @@ body .container .socialmedia li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .card-2 .article .built-with {
@@ -390,6 +397,11 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
+}
+
+.card-2 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .card-3 {
@@ -457,6 +469,7 @@ body .container .socialmedia li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .card-3 .article .built-with {
@@ -503,6 +516,11 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
+}
+
+.card-3 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .card-4 {
@@ -570,6 +588,7 @@ body .container .socialmedia li {
   font-size: 15px;
   line-height: 24px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .card-4 .article .built-with {
@@ -616,6 +635,11 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
+}
+
+.card-4 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 body .about {
@@ -693,6 +717,11 @@ body .about .prompt button {
   padding-bottom: 4px;
 }
 
+body .about .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
 .languages {
   margin-top: 24px;
 }
@@ -703,7 +732,7 @@ body .about .prompt button {
 }
 
 .languages .lang-drop .lang-head {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -729,11 +758,19 @@ body .about .prompt button {
   border: none;
   padding-bottom: 12px;
   padding-top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .languages .lang-drop ul li #buttons button img {
   display: flex;
   padding-left: 24px;
+  padding-right: 10px;
 }
 
 .languages .lang-drop ul li #buttons button p {
@@ -747,7 +784,7 @@ body .about .prompt button {
   margin-top: 21px;
   margin-left: 12px;
 }
-.languages .lang-drop .framework {
+.languages .lang-drop ul li .framework {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -760,7 +797,7 @@ body .about .prompt button {
   margin-left: -60px;
 }
 
-.languages .lang-drop .skills {
+.languages .lang-drop ul li .skills {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -770,9 +807,9 @@ body .about .prompt button {
   justify-content: space-around;
   width: 100%;
   margin-bottom: 36px;
-  margin-left: -50px;
+  margin-left: -60px;
 }
 
-.languages .lang-drop .skills img {
-  padding-left: 40px;
+.languages .lang-drop ul li .skills img {
+  padding-left: 70px;
 }
