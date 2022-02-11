@@ -41,7 +41,7 @@ body {
 }
 
 body .container {
-  min-width: 327px;
+  min-width: 100%;
   height: 600px;
   font-family: Poppins, sans-serif;
   border-radius: 1em;
@@ -175,6 +175,7 @@ body .container .socialmedia li {
   border-radius: 16px;
   margin-left: 16px;
   margin-right: 16px;
+  padding-bottom: 20px;
 }
 
 .card-1 img {
@@ -284,6 +285,10 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 88px;
+  padding-bottom: 20px;
 }
 
 .card-2 img {
@@ -393,6 +398,111 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 88px;
+  padding-bottom: 20px;
+}
+
+.card-3 img {
+  left: 16px;
+  top: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.card-3 .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-3 .sub {
+  display: flex;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-3 ul {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-3 .sub li {
+  padding-left: 14px;
+  list-style-type: none;
+}
+
+.card-3 .sub p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-3 .article {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.card-3 .article .built-with {
+  margin-bottom: 12px;
+}
+
+.card-3 .built-with button {
+  color: #6070ff;
+  outline: none;
+  border: none;
+  position: static;
+  border-radius: 8px;
+  padding: 4px, 12px, 4px, 12px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+}
+
+.card-3 .built-with #c {
+  margin-left: 4px;
+}
+
+.card-3 .built-with #j {
+  margin-left: 4px;
+}
+
+.card-3 .prompt button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #ffff;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
 }
 
 .card-4 {
@@ -402,4 +512,107 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 88px;
+  padding-bottom: 20px;
+}
+.card-4 img {
+  left: 16px;
+  top: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.card-4 .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-4 .sub {
+  display: flex;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.card-4 ul {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-4 .sub li {
+  padding-left: 14px;
+  list-style-type: none;
+}
+
+.card-4 .sub p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-4 .article {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.card-4 .article .built-with {
+  margin-bottom: 12px;
+}
+
+.card-4 .built-with button {
+  color: #6070ff;
+  outline: none;
+  border: none;
+  position: static;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card-4 .built-with #c {
+  margin-left: 4px;
+}
+
+.card-4 .built-with #j {
+  margin-left: 4px;
+}
+
+.card-4 .prompt button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #ffff;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
 }
