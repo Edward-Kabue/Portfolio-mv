@@ -280,11 +280,6 @@ body .container .socialmedia li {
   padding-bottom: 4px;
 }
 
-.card-1 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 .card-2 {
   display: flex;
   flex-direction: column;
@@ -397,11 +392,6 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
-}
-
-.card-2 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
 }
 
 .card-3 {
@@ -518,11 +508,6 @@ body .container .socialmedia li {
   padding-bottom: 4px;
 }
 
-.card-3 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 .card-4 {
   display: flex;
   flex-direction: column;
@@ -635,11 +620,6 @@ body .container .socialmedia li {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 4px;
-}
-
-.card-4 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
 }
 
 body .about {
@@ -774,7 +754,7 @@ body .about .prompt button:hover {
 }
 
 .languages .lang-drop ul li #buttons button p {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -784,20 +764,8 @@ body .about .prompt button:hover {
   margin-top: 21px;
   margin-left: 12px;
 }
-.languages .lang-drop ul li .framework {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
-}
 
-.languages .lang-drop ul li .skills {
+.languages .lang-drop ul li .framework {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -812,4 +780,37 @@ body .about .prompt button:hover {
 
 .languages .lang-drop ul li .skills img {
   padding-left: 70px;
+}
+
+.languages .lang-drop ul li .skills {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
+}
+
+.card-1 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-2 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-3 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-4 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
