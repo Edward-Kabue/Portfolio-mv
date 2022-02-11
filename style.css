@@ -163,7 +163,7 @@ body .container .socialmedia li {
 .projects {
   display: grid;
   border-radius: 1rem;
-  padding-top: 114px;
+  padding-top: 100px;
   margin-bottom: 114px;
 }
 
@@ -174,8 +174,9 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 88px;
   padding-bottom: 20px;
 }
 
@@ -192,13 +193,13 @@ body .container .socialmedia li {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
 .card-1 .sub {
   display: flex;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
@@ -212,8 +213,10 @@ body .container .socialmedia li {
 }
 
 .card-1 .sub ul li {
-  padding-left: 14px;
-  list-style-type: none;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 12px;
 }
 
 .card-1 .sub p {
@@ -222,6 +225,8 @@ body .container .socialmedia li {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  color: #344563;
+  padding-right: 25px;
 }
 
 .card-1 .article {
@@ -230,15 +235,15 @@ body .container .socialmedia li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .card-1 .article .built-with {
   margin-bottom: 12px;
 }
 
-.card-1 .built-with button {
+.card-1 .built-with ul li {
   color: #6070ff;
   outline: none;
   border: none;
@@ -254,14 +259,9 @@ body .container .socialmedia li {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-.card-1 .built-with #c {
-  margin-left: 4px;
-}
-
-.card-1 .built-with #j {
-  margin-left: 4px;
+  background: #ebebff;
+  margin-right: 8px;
+  list-style-type: none;
 }
 
 .card-1 .prompt button {
@@ -274,10 +274,10 @@ body .container .socialmedia li {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
 }
 
 .card-2 {
@@ -287,8 +287,8 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 88px;
   padding-bottom: 20px;
 }
@@ -306,13 +306,13 @@ body .container .socialmedia li {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
 .card-2 .sub {
   display: flex;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
@@ -326,8 +326,10 @@ body .container .socialmedia li {
 }
 
 .card-2 .sub ul li {
-  padding-left: 14px;
-  list-style-type: none;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 12px;
 }
 
 .card-2 .sub p {
@@ -336,6 +338,8 @@ body .container .socialmedia li {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  color: #344563;
+  padding-right: 25px;
 }
 
 .card-2 .article {
@@ -344,15 +348,15 @@ body .container .socialmedia li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .card-2 .article .built-with {
   margin-bottom: 12px;
 }
 
-.card-2 .built-with button {
+.card-2 .built-with ul li {
   color: #6070ff;
   outline: none;
   border: none;
@@ -368,14 +372,9 @@ body .container .socialmedia li {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-.card-2 .built-with #f {
-  margin-left: 4px;
-}
-
-.card-2 .built-with #a {
-  margin-left: 4px;
+  background: #ebebff;
+  margin-right: 8px;
+  list-style-type: none;
 }
 
 .card-2 .prompt button {
@@ -388,10 +387,10 @@ body .container .socialmedia li {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
 }
 
 .card-3 {
@@ -401,8 +400,8 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 88px;
   padding-bottom: 20px;
 }
@@ -420,13 +419,13 @@ body .container .socialmedia li {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
 .card-3 .sub {
   display: flex;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
@@ -440,8 +439,10 @@ body .container .socialmedia li {
 }
 
 .card-3 .sub ul li {
-  padding-left: 14px;
-  list-style-type: none;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 12px;
 }
 
 .card-3 .sub p {
@@ -450,6 +451,8 @@ body .container .socialmedia li {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  color: #344563;
+  padding-right: 25px;
 }
 
 .card-3 .article {
@@ -458,15 +461,15 @@ body .container .socialmedia li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .card-3 .article .built-with {
   margin-bottom: 12px;
 }
 
-.card-3 .built-with button {
+.card-3 .built-with ul li {
   color: #6070ff;
   outline: none;
   border: none;
@@ -482,14 +485,9 @@ body .container .socialmedia li {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-.card-3 .built-with #q {
-  margin-left: 4px;
-}
-
-.card-3 .built-with #v {
-  margin-left: 4px;
+  background: #ebebff;
+  margin-right: 8px;
+  list-style-type: none;
 }
 
 .card-3 .prompt button {
@@ -502,10 +500,10 @@ body .container .socialmedia li {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
 }
 
 .card-4 {
@@ -515,8 +513,8 @@ body .container .socialmedia li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 88px;
   padding-bottom: 20px;
 }
@@ -534,13 +532,13 @@ body .container .socialmedia li {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
 .card-4 .sub {
   display: flex;
-  padding-left: 16px;
+  padding-left: 24px;
   margin-bottom: 12px;
 }
 
@@ -554,8 +552,10 @@ body .container .socialmedia li {
 }
 
 .card-4 .sub ul li {
-  padding-left: 14px;
-  list-style-type: none;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 12px;
 }
 
 .card-4 .sub p {
@@ -564,6 +564,8 @@ body .container .socialmedia li {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  color: #344563;
+  padding-right: 25px;
 }
 
 .card-4 .article {
@@ -572,15 +574,15 @@ body .container .socialmedia li {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .card-4 .article .built-with {
   margin-bottom: 12px;
 }
 
-.card-4 .built-with button {
+.card-4 .built-with ul li {
   color: #6070ff;
   outline: none;
   border: none;
@@ -596,14 +598,9 @@ body .container .socialmedia li {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-.card-4 .built-with #o {
-  margin-left: 4px;
-}
-
-.card-4 .built-with #r {
-  margin-left: 4px;
+  background: #ebebff;
+  margin-right: 8px;
+  list-style-type: none;
 }
 
 .card-4 .prompt button {
@@ -616,14 +613,14 @@ body .container .socialmedia li {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
 }
 
 body .about {
-  min-width: 100%;
+  width: 100%;
   font-family: Poppins, sans-serif;
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -691,10 +688,10 @@ body .about .prompt button {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
 }
 
 .languages {
@@ -776,9 +773,10 @@ body .about .prompt button:hover {
 
 .languages .lang-drop ul li #buttons {
   display: grid;
+  margin-left: -25px;
 }
 
-.languages .lang-drop ul li #buttons button {
+.languages .lang-drop ul li #buttons ul li {
   display: flex;
   margin-bottom: 12px;
   margin-right: 36px;
@@ -796,7 +794,7 @@ body .about .prompt button:hover {
   align-items: center;
 }
 
-.languages .lang-drop ul li #buttons button img {
+.languages .lang-drop ul li #buttons ul li img {
   display: flex;
   padding-left: 24px;
   padding-right: 10px;
