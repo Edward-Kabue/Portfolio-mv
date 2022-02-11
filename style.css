@@ -164,6 +164,7 @@ body .container .socialmedia li {
   display: grid;
   border-radius: 1rem;
   padding-top: 114px;
+  margin-bottom: 114px;
 }
 
 .card-1 {
@@ -602,6 +603,82 @@ body .container .socialmedia li {
 }
 
 .card-4 .prompt button {
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #ffff;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+}
+
+body .about {
+  min-width: 100%;
+  font-family: Poppins, sans-serif;
+  background-color: #ffff;
+  border-top-right-radius: 100px;
+}
+
+body .about .header-text {
+  padding-right: 100px;
+  margin-left: 24px;
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 10px;
+  padding-top: 150px;
+}
+
+body .about .text {
+  color: #344563;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 10px;
+}
+
+body .about .connect {
+  color: #7f8cff;
+  padding-left: 24px;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+body .about .socialmedia {
+  display: flex;
+  justify-content: row-reverse;
+  padding-left: 14px;
+  margin: 12px;
+}
+
+body .about .socialmedia li {
+  padding-right: 15px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+body .about .prompt {
+  padding-left: 24px;
+}
+
+body .about .prompt button {
   border: 1px solid;
   border-radius: 8px;
   font-family: Poppins;
