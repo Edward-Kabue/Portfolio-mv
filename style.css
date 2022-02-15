@@ -821,7 +821,7 @@ body .about .prompt button:hover {
   height: 799px;
 }
 
-.contact-text {
+.contact .contact-text {
   color: #ebebff;
   font-family: Poppins, sans-serif;
   padding-left: 27px;
@@ -831,14 +831,14 @@ body .about .prompt button:hover {
   font-weight: 400;
 }
 
-.contact-text p {
+.contact .contact-text p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
 }
 
-.heading-contact {
+.contact .heading-contact {
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -853,43 +853,43 @@ body .about .prompt button:hover {
   width: 100%;
 }
 
-form ul {
+.contact-form form ul {
   margin-top: 30px;
 }
 
-form ul li {
+.contact-form form ul li {
   list-style-type: none;
 }
 
-form li + li {
+.contact-form form li + li {
   margin-top: 20px;
 }
 
-form ul li input {
+.contact-form form ul li input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   top: 0px;
   bottom: 0px;
 }
 
-input {
+.contact-form input {
   padding: 15px;
   color: #172b4d;
 }
 
-input,
+.contact-form input,
 textarea {
   width: 327px;
   box-sizing: border-box;
 }
 
-textarea {
+.contact-form textarea {
   height: 170px;
   border-radius: 8px;
   padding: 10px;
 }
 
-button {
+.contact-form button {
   padding: 12px 16px;
   display: flex;
   align-items: center;
