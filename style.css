@@ -746,26 +746,6 @@ body .about .prompt button {
   margin-left: -60px;
 }
 
-.card-1 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-2 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-3 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-4 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 body .about .prompt button:hover {
   background-color: #6070ff;
   color: white;
@@ -813,7 +793,7 @@ body .languages .lang-drop ul li #buttons button p {
   font-weight: 400;
 }
 
-.contact .contact-text p {
+body .contact .contact-text p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -884,6 +864,26 @@ body .contact .contact-form button {
   background: #fff;
   border: none;
   border-radius: 8px;
+}
+
+.card-1 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-2 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-3 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-4 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .languages .lang-drop ul li #buttons ul li {
