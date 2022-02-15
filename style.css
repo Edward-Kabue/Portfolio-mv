@@ -776,24 +776,6 @@ body .about .prompt button:hover {
   margin-left: -25px;
 }
 
-.languages .lang-drop ul li #buttons ul li {
-  display: flex;
-  margin-bottom: 12px;
-  margin-right: 36px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  padding-bottom: 12px;
-  padding-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
-  align-items: center;
-}
-
 .languages .lang-drop ul li #buttons ul li img {
   display: flex;
   padding-left: 24px;
@@ -861,10 +843,20 @@ body .about .prompt button:hover {
   list-style-type: none;
 }
 
+.contact .contact-form input {
+  padding: 15px;
+  color: #172b4d;
+}
+
 .contact .contact-form form li + li {
   margin-top: 20px;
 }
 
+.contact .contact-form input,
+textarea {
+  width: 327px;
+  box-sizing: border-box;
+}
 .contact .contact-form form ul li input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -872,24 +864,13 @@ body .about .prompt button:hover {
   bottom: 0px;
 }
 
-.contact-form input {
-  padding: 15px;
-  color: #172b4d;
-}
-
-.contact-form input,
-textarea {
-  width: 327px;
-  box-sizing: border-box;
-}
-
-.contact-form textarea {
+.contact .contact-form textarea {
   height: 170px;
   border-radius: 8px;
   padding: 10px;
 }
 
-.contact-form button {
+.contact .contact-form button {
   padding: 12px 16px;
   display: flex;
   align-items: center;
@@ -900,9 +881,27 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  background: #ffffff;
+  background: #fff;
   border: none;
   border-radius: 8px;
+}
+
+.languages .lang-drop ul li #buttons ul li {
+  display: flex;
+  margin-bottom: 12px;
+  margin-right: 36px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
 }
 
 body .contact .texted {
@@ -913,15 +912,6 @@ body .contact .texted {
   top: 4421.75px;
   color: white;
 }
-
-/* body .contact .two {
-  position: absolute;
-  width: 74.7px;
-  height: 17.21px;
-  left: 310px;
-  top: 4681.4px;
-  color: #fff;
-} */
 
 body .contact .rect {
   position: absolute;
