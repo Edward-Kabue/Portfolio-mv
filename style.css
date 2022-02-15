@@ -40,7 +40,7 @@ body {
   padding-bottom: 2px;
 }
 
-body .container {
+body .contact {
   min-width: 100%;
   height: 600px;
   font-family: Poppins, sans-serif;
@@ -48,7 +48,7 @@ body .container {
   background-color: #fff;
 }
 
-body .container .texted {
+body .contact .texted {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -56,14 +56,14 @@ body .container .texted {
   top: 152.24px;
 }
 
-body .container .two {
+body .contact .two {
   position: absolute;
   width: 38.5px;
   height: 19.25px;
   top: 140.47px;
 }
 
-body .container .rect {
+body .contact .rect {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
@@ -810,4 +810,76 @@ body .about .prompt button:hover {
   align-items: center;
   margin-top: 21px;
   margin-left: 12px;
+}
+
+body .contact .texted {
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  left: 328px;
+  top: 4679.75px;
+}
+
+body .contact .two {
+  position: absolute;
+  width: 74.7px;
+  height: 17.21px;
+  left: 310px;
+  top: 4681.4px;
+}
+
+body .contact .rect {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 151.59px;
+}
+
+body .contact .eclipse {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 130.98px;
+  top: 156.81px;
+}
+
+body .contact .last {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 657.1px;
+}
+
+body .contact .eclipsee {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 540.69px;
+}
+
+body .contact .lastone {
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
+  top: 550.44px;
+  z-index: 1;
+}
+
+body .contact .lp {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 90px;
+}
+
+body .contact {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  background-color: #fff;
+  border-top-right-radius: 100px;
 }
