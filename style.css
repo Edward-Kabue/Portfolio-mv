@@ -846,26 +846,26 @@ body .about .prompt button:hover {
   line-height: 52px;
 }
 
-.contact-form {
+.contact .contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.contact-form form ul {
+.contact .contact-form form ul {
   margin-top: 30px;
 }
 
-.contact-form form ul li {
+.contact .contact-form form ul li {
   list-style-type: none;
 }
 
-.contact-form form li + li {
+.contact .contact-form form li + li {
   margin-top: 20px;
 }
 
-.contact-form form ul li input {
+.contact .contact-form form ul li input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   top: 0px;
