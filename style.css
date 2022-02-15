@@ -782,7 +782,7 @@ body .about .prompt button:hover {
   padding-right: 10px;
 }
 
-.languages .lang-drop ul li #buttons button p {
+body .languages .lang-drop ul li #buttons button p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -870,7 +870,7 @@ textarea {
   padding: 10px;
 }
 
-.contact .contact-form button {
+body .contact .contact-form button {
   padding: 12px 16px;
   display: flex;
   align-items: center;
