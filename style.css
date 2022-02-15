@@ -762,18 +762,6 @@ body .about .prompt button:hover {
   padding-right: 10px;
 }
 
-body .languages .lang-drop ul li #buttons button p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  margin-top: 21px;
-  margin-left: 12px;
-}
-
 .contact {
   width: 100%;
   font-family: Poppins, sans-serif;
@@ -837,11 +825,10 @@ textarea {
   width: 327px;
   box-sizing: border-box;
 }
+
 .contact .contact-form form ul li input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  top: 0px;
-  bottom: 0px;
 }
 
 .contact .contact-form textarea {
@@ -850,7 +837,19 @@ textarea {
   padding: 10px;
 }
 
-body .contact .contact-form button {
+body .languages .lang-drop ul li #buttons button p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  margin-left: 12px;
+}
+
+body .contact .contact-form .button {
   padding: 12px 16px;
   display: flex;
   align-items: center;
@@ -866,22 +865,22 @@ body .contact .contact-form button {
   border-radius: 8px;
 }
 
-.card-1 .prompt button:hover {
+body .card-1 .prompt button:hover {
   background-color: #6070ff;
   color: white;
 }
 
-.card-2 .prompt button:hover {
+body .card-2 .prompt button:hover {
   background-color: #6070ff;
   color: white;
 }
 
-.card-3 .prompt button:hover {
+body .card-3 .prompt button:hover {
   background-color: #6070ff;
   color: white;
 }
 
-.card-4 .prompt button:hover {
+body .card-4 .prompt button:hover {
   background-color: #6070ff;
   color: white;
 }
