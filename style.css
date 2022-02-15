@@ -746,26 +746,6 @@ body .about .prompt button {
   margin-left: -60px;
 }
 
-.card-1 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-2 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-3 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-4 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
 body .about .prompt button:hover {
   background-color: #6070ff;
   color: white;
@@ -774,6 +754,135 @@ body .about .prompt button:hover {
 .languages .lang-drop ul li #buttons {
   display: grid;
   margin-left: -25px;
+}
+
+.languages .lang-drop ul li #buttons ul li img {
+  display: flex;
+  padding-left: 24px;
+  padding-right: 10px;
+}
+
+.contact {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  padding-top: 103px;
+  height: 799px;
+}
+
+.contact .contact-text {
+  color: #ebebff;
+  font-family: Poppins, sans-serif;
+  padding-left: 27px;
+  padding-top: 12px;
+  text-align: center;
+  padding-right: 27px;
+  font-weight: 400;
+}
+
+body .contact .contact-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contact .heading-contact {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact .contact-form form ul {
+  margin-top: 30px;
+}
+
+.contact .contact-form form ul li {
+  list-style-type: none;
+}
+
+.contact .contact-form input {
+  padding: 15px;
+  color: #172b4d;
+}
+
+.contact .contact-form form li + li {
+  margin-top: 20px;
+}
+
+.contact .contact-form input,
+textarea {
+  width: 327px;
+  box-sizing: border-box;
+}
+
+.contact .contact-form form ul li input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.contact .contact-form textarea {
+  height: 170px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+body .languages .lang-drop ul li #buttons button p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  margin-left: 12px;
+}
+
+body .contact .contact-form .button {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+body .card-1 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+body .card-2 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+body .card-3 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+body .card-4 .prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .languages .lang-drop ul li #buttons ul li {
@@ -794,20 +903,60 @@ body .about .prompt button:hover {
   align-items: center;
 }
 
-.languages .lang-drop ul li #buttons ul li img {
-  display: flex;
-  padding-left: 24px;
-  padding-right: 10px;
+body .contact .texted {
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  left: 328px;
+  top: 4421.75px;
+  color: white;
 }
 
-.languages .lang-drop ul li #buttons button p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  margin-top: 21px;
-  margin-left: 12px;
+body .contact .rect {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 298.18px;
+  top: 4410.59px;
+}
+
+body .contact .eclipse {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 130.98px;
+  top: 156.81px;
+}
+
+body .contact .last {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 657.1px;
+}
+
+body .contact .eclipsee {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 540.69px;
+}
+
+body .contact .lastone {
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
+  top: 550.44px;
+  z-index: 1;
+}
+
+body .contact .lp {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 90px;
 }
