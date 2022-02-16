@@ -6,19 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 
 
 <body>
     <header class="header">
+        <div id="logo"><a href="/">MyCompany</a></div>
         <nav>
-            <div class="img">
-                <img src="./images/logo.png" alt="logo">
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
             </div>
             <div class="bar">
-                <img src="./images/Icon-Menu.svg" alt="menu">
+                <ul class="mobile-menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
         </nav>
     </header>
@@ -69,7 +82,7 @@
         </ul>
     </section>
     <section class="projects">
-        <div class="card-1">
+        <div class="card">
             <img src="./images/Snapshoot-Portfolio.svg" alt="snap">
             <h2 class="title">
                 Tonic
@@ -98,7 +111,7 @@
                 </section>
             </div>
         </div>
-        <div class="card-2">
+        <div class="card">
             <img src="./images/post.svg" alt="post">
             <h2 class="title">
                 Multi-Post
@@ -132,7 +145,7 @@
                 </section>
             </div>
         </div>
-        <div class="card-3">
+        <div class="card">
             <img src="./images/Snapshoot-Portfolio.svg" alt="snap">
             <h2 class="title">
                 Tonic
@@ -160,7 +173,7 @@
                 </section>
             </div>
         </div>
-        <div class="card-4">
+        <div class="card">
             <img src="./images/post.svg" alt="post">
             <h2 class="title">
                 Multi-Post
@@ -169,7 +182,7 @@
             <div class="sub">
                 <p>Multi-Post
                     Stories</p>
-                <ul>
+                <ul class="sub-items">
                     <li>Back End Dev</li>
                     <li>2015</li>
                 </ul>
@@ -214,7 +227,7 @@
             <li><a href="#"><img src="./images/git.svg" alt="git"> </a></li>
             <li><a href="#"> <img src="./images/tumblur.svg" alt="tumblur"></a> </li>
         </ul>
-        <section class="prompt">
+        <section class="cta">
             <button type="submit">Get my resume</button>
         </section>
         <section class="languages">
@@ -281,7 +294,7 @@
             <h2 class="heading-contact">
                 Contact me
             </h2>
-            <p class="text">
+            <p class="cont-text">
                 If you have an application you are interested in developing, a feature that you need built or a project
                 that
                 needs
@@ -302,7 +315,7 @@
                             required></textarea>
                     </li>
                 </ul>
-                <button class="button" type="submit">Get It Touch</button>
+                <button class="button-submit" type="submit">Get It Touch</button>
             </form>
 
         </div>

@@ -7,40 +7,78 @@
 
 body {
   background-color: #f7f7f9;
+  font-family: "Poppins", sans-serif;
 }
 
-.header nav {
+header a {
+  text-decoration: none;
+}
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 10px;
-  border-radius: 1em;
+  border-radius: 8px;
+  padding-bottom: 12px;
   background-color: #fff;
 }
 
-.header nav .img {
-  height: 40px;
-  width: 100%;
-  padding-left: 12px;
+#logo {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
-.header nav .bar {
-  margin: 10px;
-  cursor: pointer;
+.nav-items ul a {
+  color: black;
+}
+
+#logo a {
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-items li {
   padding: 5px;
+  margin-left: 10px;
 }
 
-.header nav .bar-item {
-  height: 5px;
+.bar {
+  display: none;
+  top: 50px;
+  left: 0;
   width: 100%;
-  background-color: #6070ff;
-  display: block;
-  border-radius: 5px;
-  padding-bottom: 2px;
 }
 
-body .container {
+.bar div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+  }
+}
+
+.container {
   min-width: 100%;
   height: 600px;
   font-family: Poppins, sans-serif;
@@ -48,7 +86,7 @@ body .container {
   background-color: #fff;
 }
 
-body .container .texted {
+.container .texted {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -56,14 +94,14 @@ body .container .texted {
   top: 152.24px;
 }
 
-body .container .two {
+.container .two {
   position: absolute;
   width: 38.5px;
   height: 19.25px;
   top: 140.47px;
 }
 
-body .container .rect {
+.container .rect {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
@@ -71,7 +109,7 @@ body .container .rect {
   top: 151.59px;
 }
 
-body .container .eclipse {
+.container .eclipse {
   position: absolute;
   width: 11px;
   height: 10px;
@@ -79,7 +117,7 @@ body .container .eclipse {
   top: 156.81px;
 }
 
-body .container .last {
+.container .last {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -87,7 +125,7 @@ body .container .last {
   top: 657.1px;
 }
 
-body .container .eclipsee {
+.container .eclipsee {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -95,7 +133,7 @@ body .container .eclipsee {
   top: 540.69px;
 }
 
-body .container .lastone {
+.container .lastone {
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -104,7 +142,7 @@ body .container .lastone {
   z-index: 1;
 }
 
-body .container .lp {
+.container .lp {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -112,7 +150,7 @@ body .container .lp {
   top: 90px;
 }
 
-body .container .header-text {
+.header-text {
   padding-right: 100px;
   margin-left: 24px;
   color: #172b4d;
@@ -125,7 +163,7 @@ body .container .header-text {
   padding-top: 150px;
 }
 
-body .container .text {
+.text {
   color: #344563;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -137,7 +175,7 @@ body .container .text {
   margin-top: 10px;
 }
 
-body .container .connect {
+.connect {
   color: #7f8cff;
   padding-left: 24px;
   font-family: Poppins, sans-serif;
@@ -146,18 +184,6 @@ body .container .connect {
   align-items: center;
   font-size: 16px;
   margin-top: 10px;
-}
-
-body .container .socialmedia {
-  display: flex;
-  padding-left: 14px;
-  margin: 12px;
-}
-
-body .container .socialmedia li {
-  padding-right: 15px;
-  list-style-type: none;
-  cursor: pointer;
 }
 
 .projects {
@@ -167,7 +193,7 @@ body .container .socialmedia li {
   margin-bottom: 114px;
 }
 
-.card-1 {
+.card {
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -180,15 +206,14 @@ body .container .socialmedia li {
   padding-bottom: 20px;
 }
 
-.card-1 img {
+.card img {
   left: 16px;
   top: 16px;
   padding: 16px;
   align-items: center;
 }
 
-.card-1 .title {
-  font-family: Poppins, sans-serif;
+.title {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -197,13 +222,13 @@ body .container .socialmedia li {
   margin-bottom: 12px;
 }
 
-.card-1 .sub {
+.sub {
   display: flex;
   padding-left: 24px;
   margin-bottom: 12px;
 }
 
-.card-1 ul {
+.sub ul {
   display: flex;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -212,24 +237,14 @@ body .container .socialmedia li {
   line-height: 16px;
 }
 
-.card-1 .sub ul li {
+.sub li {
   color: #7a869a;
   display: flex;
   justify-content: space-around;
   padding-right: 12px;
 }
 
-.card-1 .sub p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  padding-right: 25px;
-}
-
-.card-1 .article {
+.article {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -239,11 +254,11 @@ body .container .socialmedia li {
   padding-right: 24px;
 }
 
-.card-1 .article .built-with {
+.built-with {
   margin-bottom: 12px;
 }
 
-.card-1 .built-with ul li {
+.built-with li {
   color: #6070ff;
   outline: none;
   border: none;
@@ -260,11 +275,11 @@ body .container .socialmedia li {
   font-size: 12px;
   line-height: 16px;
   background: #ebebff;
-  margin-right: 8px;
+  margin-left: 5px;
   list-style-type: none;
 }
 
-.card-1 .prompt button {
+.prompt button {
   border: 1px solid;
   border-radius: 8px;
   font-family: Poppins, sans-serif;
@@ -280,408 +295,17 @@ body .container .socialmedia li {
   padding-bottom: 10px;
 }
 
-.card-2 {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 88px;
-  padding-bottom: 20px;
-}
-
-.card-2 img {
-  left: 16px;
-  top: 16px;
-  padding: 16px;
-  align-items: center;
-}
-
-.card-2 .title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-2 .sub {
-  display: flex;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-2 ul {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.card-2 .sub ul li {
-  color: #7a869a;
-  display: flex;
-  justify-content: space-around;
-  padding-right: 12px;
-}
-
-.card-2 .sub p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  padding-right: 25px;
-}
-
-.card-2 .article {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.card-2 .article .built-with {
-  margin-bottom: 12px;
-}
-
-.card-2 .built-with ul li {
-  color: #6070ff;
-  outline: none;
-  border: none;
-  position: static;
-  border-radius: 8px;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
-  margin-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  background: #ebebff;
-  margin-right: 8px;
-  list-style-type: none;
-}
-
-.card-2 .prompt button {
-  border: 1px solid;
-  border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  padding-top: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-}
-
-.card-3 {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 88px;
-  padding-bottom: 20px;
-}
-
-.card-3 img {
-  left: 16px;
-  top: 16px;
-  padding: 16px;
-  align-items: center;
-}
-
-.card-3 .title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-3 .sub {
-  display: flex;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-3 ul {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.card-3 .sub ul li {
-  color: #7a869a;
-  display: flex;
-  justify-content: space-around;
-  padding-right: 12px;
-}
-
-.card-3 .sub p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  padding-right: 25px;
-}
-
-.card-3 .article {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.card-3 .article .built-with {
-  margin-bottom: 12px;
-}
-
-.card-3 .built-with ul li {
-  color: #6070ff;
-  outline: none;
-  border: none;
-  position: static;
-  border-radius: 8px;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
-  margin-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  background: #ebebff;
-  margin-right: 8px;
-  list-style-type: none;
-}
-
-.card-3 .prompt button {
-  border: 1px solid;
-  border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  padding-top: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-}
-
-.card-4 {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 88px;
-  padding-bottom: 20px;
-}
-
-.card-4 img {
-  left: 16px;
-  top: 16px;
-  padding: 16px;
-  align-items: center;
-}
-
-.card-4 .title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-4 .sub {
-  display: flex;
-  padding-left: 24px;
-  margin-bottom: 12px;
-}
-
-.card-4 ul {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.card-4 .sub ul li {
-  color: #7a869a;
-  display: flex;
-  justify-content: space-around;
-  padding-right: 12px;
-}
-
-.card-4 .sub p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
-  padding-right: 25px;
-}
-
-.card-4 .article {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.card-4 .article .built-with {
-  margin-bottom: 12px;
-}
-
-.card-4 .built-with ul li {
-  color: #6070ff;
-  outline: none;
-  border: none;
-  position: static;
-  border-radius: 8px;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
-  margin-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  background: #ebebff;
-  margin-right: 8px;
-  list-style-type: none;
-}
-
-.card-4 .prompt button {
-  border: 1px solid;
-  border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  padding-top: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-}
-
-body .about {
+.about {
   width: 100%;
   font-family: Poppins, sans-serif;
   background-color: #fff;
   border-top-right-radius: 100px;
 }
 
-body .about .header-text {
-  padding-right: 100px;
-  margin-left: 24px;
-  color: #172b4d;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 10px;
-  padding-top: 150px;
-}
-
-body .about .text {
-  color: #344563;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-top: 10px;
-}
-
-body .about .connect {
-  color: #7f8cff;
-  padding-left: 24px;
-  font-family: Poppins, sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-body .about .socialmedia {
-  display: flex;
-  padding-left: 14px;
-  margin: 12px;
-}
-
-body .about .socialmedia li {
-  padding-right: 15px;
-  list-style-type: none;
-  cursor: pointer;
-}
-
-body .about .prompt {
-  padding-left: 24px;
-}
-
-body .about .prompt button {
+.cta button {
   border: 1px solid;
   border-radius: 8px;
-  font-family: Poppins, sans-serif;
+  margin-left: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -694,70 +318,65 @@ body .about .prompt button {
   padding-bottom: 8px;
 }
 
-.languages {
-  margin-top: 24px;
-}
-
-.languages .lang-drop ul li {
-  display: grid;
-  margin-left: 24px;
-}
-
-.languages .lang-drop .lang-head {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
-}
-
-.languages .lang-drop ul li .framework {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
-}
-
-.languages .lang-drop ul li .skills img {
-  padding-left: 70px;
-}
-
-.languages .lang-drop ul li .skills {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
-}
-
-body .about .prompt button:hover {
+.cta button:hover {
   background-color: #6070ff;
   color: white;
 }
 
-.languages .lang-drop ul li #buttons {
-  display: grid;
-  margin-left: -25px;
+.languages {
+  margin-top: 24px;
 }
 
-.languages .lang-drop ul li #buttons ul li img {
+.lang-drop {
+  display: grid;
+  margin-left: 24px;
+}
+
+.lang-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: 100px;
+}
+
+.framework {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: grid;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.skills img {
+  padding-left: 70px;
+}
+
+.skills {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: grid;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
+}
+
+#buttons {
+  display: grid;
+  margin-left: 24px;
+}
+
+#buttons img {
+  display: grid;
   padding-left: 24px;
   padding-right: 10px;
 }
@@ -771,9 +390,8 @@ body .about .prompt button:hover {
   height: 799px;
 }
 
-.contact .contact-text {
+.contact-text {
   color: #ebebff;
-  font-family: Poppins, sans-serif;
   padding-left: 27px;
   padding-top: 12px;
   text-align: center;
@@ -781,14 +399,15 @@ body .about .prompt button:hover {
   font-weight: 400;
 }
 
-body .contact .contact-text p {
+.contact-text p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
+  color: white;
 }
 
-.contact .heading-contact {
+.heading-contact {
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -796,61 +415,43 @@ body .contact .contact-text p {
   line-height: 52px;
 }
 
-.contact .contact-form {
-  display: flex;
+.contact-form ul {
+  margin-top: 30px;
+  display: grid;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.contact .contact-form form ul {
-  margin-top: 30px;
-}
-
-.contact .contact-form form ul li {
+.contact-form li {
   list-style-type: none;
 }
 
-.contact .contact-form input {
+.contact-form input {
   padding: 15px;
   color: #172b4d;
 }
 
-.contact .contact-form form li + li {
+.contact-form li + li {
   margin-top: 20px;
 }
 
-.contact .contact-form input,
+.contact-form input,
 textarea {
+  padding: 15px;
+  color: #172b4d;
   width: 327px;
   box-sizing: border-box;
-}
-
-.contact .contact-form form ul li input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
-.contact .contact-form textarea {
+.contact-form textarea {
   height: 170px;
-  border-radius: 8px;
-  padding: 10px;
 }
 
-body .languages .lang-drop ul li #buttons button p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  margin-top: 21px;
-  margin-left: 12px;
-}
-
-body .contact .contact-form .button {
-  padding: 12px 16px;
+.button-submit {
+  padding: 12px 26px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -863,30 +464,11 @@ body .contact .contact-form .button {
   background: #fff;
   border: none;
   border-radius: 8px;
+  margin-left: 24px;
 }
 
-body .card-1 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-body .card-2 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-body .card-3 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-body .card-4 .prompt button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.languages .lang-drop ul li #buttons ul li {
-  display: flex;
+#buttons ul {
+  display: grid;
   margin-bottom: 12px;
   margin-right: 36px;
   background: #f7f7f9;
@@ -895,7 +477,6 @@ body .card-4 .prompt button:hover {
   border: none;
   padding-bottom: 12px;
   padding-top: 12px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -903,7 +484,7 @@ body .card-4 .prompt button:hover {
   align-items: center;
 }
 
-body .contact .texted {
+.contact .texted {
   position: absolute;
   width: 90px;
   height: 89px;
@@ -912,7 +493,7 @@ body .contact .texted {
   color: white;
 }
 
-body .contact .rect {
+.contact .rect {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
@@ -920,7 +501,7 @@ body .contact .rect {
   top: 4410.59px;
 }
 
-body .contact .eclipse {
+.contact .eclipse {
   position: absolute;
   width: 11px;
   height: 10px;
@@ -928,7 +509,7 @@ body .contact .eclipse {
   top: 156.81px;
 }
 
-body .contact .last {
+.contact .last {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -936,7 +517,7 @@ body .contact .last {
   top: 657.1px;
 }
 
-body .contact .eclipsee {
+.contact .eclipsee {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -944,7 +525,7 @@ body .contact .eclipsee {
   top: 540.69px;
 }
 
-body .contact .lastone {
+.contact .lastone {
   position: absolute;
   width: 30.1px;
   height: 30.1px;
@@ -953,10 +534,15 @@ body .contact .lastone {
   z-index: 1;
 }
 
-body .contact .lp {
+.contact .lp {
   position: absolute;
   width: 15px;
   height: 15px;
   left: 214px;
   top: 90px;
+}
+
+.prompt button:hover {
+  background-color: #6070ff;
+  color: white;
 }
