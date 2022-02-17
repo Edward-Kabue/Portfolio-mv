@@ -62,7 +62,6 @@ header {
   display: none;
   top: 50px;
   left: 0;
-  width: 100%;
   margin-top: 10px;
 }
 
@@ -149,7 +148,7 @@ header {
 
 .card-rev {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -175,15 +174,18 @@ header {
   top: 16px;
   padding: 16px;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  overflow-x: hidden;
 }
 
 .card-rev img {
   left: 16px;
   top: 16px;
-  padding: 16px;
+  padding: 10px;
   align-items: center;
   width: 100%;
+  overflow-x: hidden;
+  padding-right: 20px;
 }
 
 .title {
@@ -276,7 +278,6 @@ header {
 }
 
 .about {
-  width: 100%;
   background-color: #fff;
   border-top-right-radius: 100px;
   padding-top: 142px;
@@ -381,7 +382,7 @@ header {
   font-family: Poppins, sans-serif;
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  height: 799px;
+
   padding: 142px 320px 127px 320px;
   background-image: url(./images/white.svg), url(./images/Ellipse-11.png),
     url(./images/Ellipse-4.svg), url(./images/Rectangle-4.svg);
@@ -440,7 +441,7 @@ header {
 textarea {
   padding: 15px;
   color: #172b4d;
-  width: 327px;
+  width: 447px;
   box-sizing: border-box;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
