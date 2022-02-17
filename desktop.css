@@ -25,7 +25,7 @@ header {
   padding-bottom: 12px;
   background-color: #fff;
   margin-bottom: 20px;
-  position: sticky;
+  position: fixed;
 }
 
 #logo {
@@ -76,6 +76,7 @@ header {
 /* stylelint-disable */
 .container {
   border-radius: 1em;
+  position: static;
   padding-top: 200px;
   padding-left: 260px;
   padding-right: 260px;
