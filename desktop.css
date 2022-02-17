@@ -41,7 +41,7 @@ header {
 }
 
 #logo a {
-  color: #09c372;
+  color: #6070ff;
 }
 
 .nav-items ul {
@@ -123,10 +123,14 @@ header {
   margin-top: 12px;
 }
 
-.socialmedia ul {
+.socialmedia {
   float: left;
   display: flex;
   list-style-type: none;
+}
+
+.socialmedia li {
+  padding-right: 20px;
 }
 
 .card {
@@ -136,8 +140,21 @@ header {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 88px;
+  padding-bottom: 20px;
+}
+
+.card-rev {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-left: 140px;
+  margin-right: 140px;
   margin-top: 88px;
   padding-bottom: 20px;
 }
@@ -149,6 +166,7 @@ header {
 .two {
   width: 50%;
   margin-left: 50px;
+  padding-top: 48px;
 }
 
 .card img {
@@ -159,11 +177,18 @@ header {
   width: 100%;
 }
 
+.card-rev img {
+  left: 16px;
+  top: 16px;
+  padding: 16px;
+  align-items: center;
+  width: 100%;
+}
+
 .title {
-  font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 52px;
   padding-left: 24px;
   margin-bottom: 12px;
 }
@@ -176,17 +201,19 @@ header {
 
 .sub p {
   padding-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .sub ul {
   display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  padding-top: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 10px;
   padding-left: 12px;
+  list-style-type: circle;
 }
 
 .sub li {
@@ -197,10 +224,9 @@ header {
 }
 
 .article {
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -222,8 +248,6 @@ header {
   padding-right: 12px;
   padding-bottom: 4px;
   margin-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -235,11 +259,13 @@ header {
 .prompt button {
   border: 1px solid;
   border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #396df2;
   background-color: #fff;
   padding-top: 10px;
@@ -250,25 +276,58 @@ header {
 
 .about {
   width: 100%;
-  font-family: Poppins, sans-serif;
   background-color: #fff;
   border-top-right-radius: 100px;
+  padding-top: 142px;
+  padding-left: 142px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.part-one {
+  width: 40%;
+  display: block;
+}
+
+.part-two {
+  margin-left: 12px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 10px;
+}
+
+.texting {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+
+.social-connect {
+  display: grid;
 }
 
 .cta button {
+  margin-top: 12px;
   border: 1px solid;
   border-radius: 8px;
-  margin-left: 24px;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #396df2;
   background-color: #fff;
-  padding-top: 8px;
+  padding-top: 10px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 .cta button:hover {
@@ -276,13 +335,8 @@ header {
   color: white;
 }
 
-.languages {
-  margin-top: 24px;
-}
-
-.lang-drop {
-  display: grid;
-  margin-left: 24px;
+.lang-drop ul {
+  list-style-type: none;
 }
 
 .lang-head {
@@ -291,56 +345,49 @@ header {
   font-size: 20px;
   line-height: 24px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 36px;
-  margin-left: 100px;
+  list-style-type: none;
 }
 
-.framework {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+.diff {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.buttons li {
   display: grid;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-}
-
-.skills img {
-  padding-left: 70px;
-}
-
-.skills {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: grid;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
-}
-
-#buttons {
-  display: grid;
+  border: none;
+  border-radius: 8px;
   margin-left: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #f7f7f9;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
 }
-
-#buttons img {
-  display: grid;
-  padding-left: 24px;
-  padding-right: 10px;
-}
-
+/* stylelint-disable */
 .contact {
   font-family: Poppins, sans-serif;
   background-color: #6070ff;
   border-top-left-radius: 100px;
   height: 799px;
   padding: 142px 320px 127px 320px;
+  background-image: url(./images/white.svg), url(./images/Ellipse-11.png),
+    url(./images/Ellipse-4.svg), url(./images/Rectangle-4.svg);
+  background-repeat: no-repeat;
+  background-position: right 150px, 139.2px 60.68px, 839px 608px, 1150px 120px;
 }
+/* stylelint-enable */
 
 .contact-text {
   color: #ebebff;
@@ -416,7 +463,6 @@ textarea {
   background: #fff;
   border: none;
   border-radius: 8px;
-  margin-left: 24px;
 }
 
 #buttons ul {
@@ -493,8 +539,4 @@ textarea {
 .prompt button:hover {
   background-color: #6070ff;
   color: white;
-}
-
-.socialmedia li + li {
-  padding-right: 20px;
 }

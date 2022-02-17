@@ -3,11 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #f7f7f9;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 header a {
@@ -30,6 +32,7 @@ header {
   font-size: 18px;
   display: flex;
   align-items: center;
+  margin-right: 12px;
 }
 
 .nav-items ul a {
@@ -37,12 +40,11 @@ header {
 }
 
 #logo a {
-  color: #09c372;
+  color: #6070ff;
 }
 
 ul {
   list-style: none;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,14 +59,14 @@ ul {
   display: none;
   top: 50px;
   left: 0;
-  width: 100%;
+  padding-right: 20px;
   margin-top: 10px;
 }
 
 .bar div {
   width: 35px;
   height: 3px;
-  background-color: black;
+  background-color: #acb7c3;
   margin: 5px 0 5px 280px;
   transition: 0.4s;
 }
@@ -81,7 +83,7 @@ ul {
 }
 
 .container {
-  min-width: 100%;
+  width: 100%;
   height: 600px;
   font-family: Poppins, sans-serif;
   border-radius: 1em;
@@ -96,62 +98,6 @@ ul {
   top: 152.24px;
 }
 
-.container .two {
-  position: absolute;
-  width: 38.5px;
-  height: 19.25px;
-  top: 140.47px;
-}
-
-.container .rect {
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
-  left: 127.18px;
-  top: 151.59px;
-}
-
-.container .eclipse {
-  position: absolute;
-  width: 11px;
-  height: 10px;
-  left: 130.98px;
-  top: 156.81px;
-}
-
-.container .last {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 237px;
-  top: 657.1px;
-}
-
-.container .eclipsee {
-  position: absolute;
-  width: 24.14px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 540.69px;
-}
-
-.container .lastone {
-  position: absolute;
-  width: 30.1px;
-  height: 30.1px;
-  left: 332.18px;
-  top: 550.44px;
-  z-index: 1;
-}
-
-.container .lp {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 214px;
-  top: 90px;
-}
-
 .header-text {
   padding-right: 100px;
   margin-left: 24px;
@@ -163,6 +109,17 @@ ul {
   line-height: 52px;
   margin-top: 10px;
   padding-top: 150px;
+}
+
+.socialmedia {
+  float: left;
+  display: flex;
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+.socialmedia li {
+  padding-right: 20px;
 }
 
 .text {
@@ -208,7 +165,20 @@ ul {
   padding-bottom: 20px;
 }
 
-.card img {
+.card-rev {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 88px;
+  padding-bottom: 20px;
+}
+
+.one img {
   left: 16px;
   top: 16px;
   padding: 16px;
@@ -232,11 +202,13 @@ ul {
 
 .sub ul {
   display: flex;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  padding-top: 5px;
+  padding-left: 12px;
+  list-style-type: none;
 }
 
 .sub li {
@@ -261,24 +233,7 @@ ul {
 }
 
 .built-with li {
-  color: #6070ff;
-  outline: none;
-  border: none;
-  position: static;
-  border-radius: 8px;
-  padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 4px;
-  margin-top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  background: #ebebff;
-  margin-left: 5px;
-  list-style-type: none;
+  display: none;
 }
 
 .prompt button {
@@ -299,9 +254,11 @@ ul {
 
 .about {
   width: 100%;
-  font-family: Poppins, sans-serif;
   background-color: #fff;
-  border-top-right-radius: 100px;
+  border-top-right-radius: 12rem;
+  padding-top: 114px;
+  padding-left: 26px;
+  padding-right: 24px;
 }
 
 .cta button {
@@ -325,13 +282,14 @@ ul {
   color: white;
 }
 
-.languages {
-  margin-top: 24px;
+.texting {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 12px;
 }
 
 .lang-drop {
   display: grid;
-  margin-left: 24px;
 }
 
 .lang-head {
@@ -339,37 +297,8 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 36px;
-  margin-left: 100px;
-}
-
-.framework {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: grid;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 36px;
-}
-
-.skills img {
-  padding-left: 70px;
-}
-
-.skills {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: grid;
-  width: 100%;
-  margin-bottom: 36px;
-  margin-left: -60px;
 }
 
 #buttons {
@@ -484,64 +413,6 @@ textarea {
   font-size: 15px;
   line-height: 20px;
   align-items: center;
-}
-
-.contact .texted {
-  position: absolute;
-  width: 90px;
-  height: 89px;
-  left: 328px;
-  top: 4421.75px;
-  color: white;
-}
-
-.contact .rect {
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
-  left: 298.18px;
-  top: 4410.59px;
-}
-
-.contact .eclipse {
-  position: absolute;
-  width: 11px;
-  height: 10px;
-  left: 130.98px;
-  top: 156.81px;
-}
-
-.contact .last {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 237px;
-  top: 657.1px;
-}
-
-.contact .eclipsee {
-  position: absolute;
-  width: 24.14px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 540.69px;
-}
-
-.contact .lastone {
-  position: absolute;
-  width: 30.1px;
-  height: 30.1px;
-  left: 332.18px;
-  top: 550.44px;
-  z-index: 1;
-}
-
-.contact .lp {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 214px;
-  top: 90px;
 }
 
 .prompt button:hover {

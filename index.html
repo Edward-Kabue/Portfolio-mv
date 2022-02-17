@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px)" href=" ./style.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 600px)" href="./desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href=" ./style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="./desktop.css" />
 </head>
 
 
@@ -56,10 +56,10 @@
     </section>
     <section class="projects">
         <div class="card">
-            <section class="one">
-                <img src="./images/Snapshoot-Portfolio.svg" alt="snap">
+            <div class="one">
+                <img src="./images/SnapshootPortfolio-desk.svg" alt="snap">
 
-            </section>
+            </div>
             <section class="two">
                 <h2 class="title">
                     Tonic
@@ -86,12 +86,13 @@
                     <section class="prompt">
                         <button type="submit">See Project</button>
                     </section>
+                </div>
             </section>
         </div>
-        </div>
-        <div class="card">
+
+        <div class="card-rev">
             <section class="one">
-                <img src="./images/post.svg" alt="post">
+                <img src="./images/second.svg" alt="post">
             </section>
             <section class="two">
                 <h2 class="title">
@@ -119,14 +120,13 @@
                             <li>css</li>
                             <li>javascript</li>
                         </ul>
-                    </section>
 
-                    <section class="prompt">
-                        <button type="submit">See Project</button>
                     </section>
+                </div>
+                <section class="prompt">
+                    <button type="submit">See Project</button>
+                </section>
             </section>
-
-        </div>
         </div>
         <div class="card">
             <section class="one">
@@ -154,14 +154,13 @@
                             <li>javascript</li>
                         </ul>
                     </section>
-                    <section class="prompt">
-                        <button type="submit">See Project</button>
-                    </section>
+                </div>
+                <section class="prompt">
+                    <button type="submit">See Project</button>
+                </section>
             </section>
-
         </div>
-        </div>
-        <div class="card">
+        <div class="card-rev">
             <section class="one">
                 <img src="./images/post.svg" alt="post">
             </section>
@@ -191,68 +190,73 @@
                             <li>javascript</li>
                         </ul>
                     </section>
-                    <section class="prompt">
-                        <button type="submit">See Project</button>
-                    </section>
+                </div>
+                <section class="prompt">
+                    <button type="submit">See Project</button>
+                </section>
             </section>
-
-        </div>
         </div>
     </section>
     <section class="about">
-        <h2 class="header-text">
-            About <br>Myself
-        </h2>
-        <p class="text">
-            Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-            my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
-            contact me.
-        </p>
-        <h2 class="connect">
-            LET’S CONNECT
-        </h2>
-        <ul class="socialmedia">
-            <li> <a href="#"> <img src="./images/twitter.svg" alt="twitter"> </a></li>
-            <li><a href="#"> <img src="./images/linkedin.svg" alt="linkedin"></a> </li>
-            <li><a href="#"><img src="./images/medium.svg" alt="medium"> </a></li>
-            <li><a href="#"><img src="./images/git.svg" alt="git"> </a></li>
-            <li><a href="#"> <img src="./images/tumblur.svg" alt="tumblur"></a> </li>
-        </ul>
-        <section class="cta">
-            <button type="submit">Get my resume</button>
-        </section>
-        <section class="languages">
-            <section class="lang-drop">
-                <ul>
-                    <li>
-                        <div class="lang-head">
-                            <p>Languages</p>
-                            <img src="./images/down.png" alt="dropdown">
-                        </div>
-                        <div id="buttons">
-                            <ul>
-                                <li> <img src="./images/js.svg" alt="js">
-                                    JavaScript</li>
-                                <li><img src="./images/html.svg" alt="html">
-                                    HTML</li>
-                                <li><img src="./images/css.svg" alt="css">
-                                    CSS</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="framework">
-                            <p>Framework</p>
-                            <img src="./images/right-arrow.svg" alt="right">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="skills">
-                            <p>Skills</p>
-                            <img src="./images/right-arrow.svg" alt="right">
-                        </div>
-                    </li>
+        <section class="part-one">
+            <h2 class="heading">
+                About <br>Myself
+            </h2>
+            <p class="texting">
+                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                contact me.
+            </p>
+            <div class="social-connect">
+                <h2 class="connect">
+                    LET’S CONNECT
+                </h2>
+                <ul class="socialmedia">
+                    <li> <a href="#"> <img src="./images/twitter.svg" alt="twitter"> </a></li>
+                    <li><a href="#"> <img src="./images/linkedin.svg" alt="linkedin"></a> </li>
+                    <li><a href="#"><img src="./images/medium.svg" alt="medium"> </a></li>
+                    <li><a href="#"><img src="./images/git.svg" alt="git"> </a></li>
+                    <li><a href="#"> <img src="./images/tumblur.svg" alt="tumblur"></a> </li>
                 </ul>
+                <section class="cta">
+                    <button type="button">Get my resume</button>
+                </section>
+            </div>
+        </section>
+        <section class="part-two">
+            <section class="languages">
+                <section class="lang-drop">
+                    <ul>
+                        <li>
+                            <div class="lang-head">
+                                <p>Languages</p>
+                                <img src="./images/down.png" alt="dropdown">
+                            </div>
+                            <div class="diff">
+                                <ul class="buttons">
+                                    <li> <img src="./images/js.svg" alt="js">
+                                        JavaScript</li>
+                                    <li><img src="./images/html.svg" alt="html">
+                                        HTML</li>
+                                    <li><img src="./images/css.svg" alt="css">
+                                        CSS</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lang-head">
+                                <p>Framework</p>
+                                <img src="./images/right-arrow.svg" alt="right">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lang-head">
+                                <p>Skills</p>
+                                <img src="./images/right-arrow.svg" alt="right">
+                            </div>
+                        </li>
+                    </ul>
+                </section>
             </section>
         </section>
     </section>
@@ -282,8 +286,10 @@
                         <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here"
                             required></textarea>
                     </li>
+                    <li>
+                        <button class="button-submit" type="submit">Get It Touch</button>
+                    </li>
                 </ul>
-                <button class="button-submit" type="submit">Get It Touch</button>
             </form>
 
         </div>
