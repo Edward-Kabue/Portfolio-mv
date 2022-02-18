@@ -292,15 +292,6 @@ ul {
   display: grid;
 }
 
-.lang-head {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
 .languages {
   margin-top: 24px;
 }
