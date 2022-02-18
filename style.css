@@ -292,13 +292,26 @@ ul {
   display: grid;
 }
 
+.languages {
+  margin-top: 24px;
+}
+
+.lang-drop li {
+  display: grid;
+  margin-left: 24px;
+}
+
 .lang-head {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: space-around;
   width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
 }
 
 #buttons {
