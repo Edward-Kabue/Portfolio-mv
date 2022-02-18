@@ -493,10 +493,6 @@ textarea {
   color: white;
 }
 
-.contact .lp {
-  display: none;
-}
-
 .prompt button:hover {
   background-color: #6070ff;
   color: white;
