@@ -305,12 +305,12 @@ ul {
   margin-top: 24px;
 }
 
-.languages .lang-drop li {
+.lang-drop li {
   display: grid;
   margin-left: 24px;
 }
 
-.languages .lang-drop .lang-head {
+.lang-head {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
