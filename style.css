@@ -301,6 +301,28 @@ ul {
   width: 100%;
 }
 
+.languages {
+  margin-top: 24px;
+}
+
+.languages .lang-drop ul li {
+  display: grid;
+  margin-left: 24px;
+}
+
+.languages .lang-drop .lang-head {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-left: -60px;
+}
+
 #buttons {
   display: grid;
   margin-left: 24px;
