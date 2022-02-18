@@ -305,7 +305,7 @@ ul {
   margin-top: 24px;
 }
 
-.languages .lang-drop ul li {
+.languages .lang-drop li {
   display: grid;
   margin-left: 24px;
 }
