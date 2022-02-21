@@ -542,3 +542,8 @@ textarea {
   background-color: #6070ff;
   color: white;
 }
+
+.nav-items li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
