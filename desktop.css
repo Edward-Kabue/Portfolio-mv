@@ -493,51 +493,6 @@ textarea {
   color: white;
 }
 
-.contact .rect {
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
-  left: 298.18px;
-  top: 4410.59px;
-}
-
-.contact .eclipse {
-  position: absolute;
-  width: 11px;
-  height: 10px;
-  left: 130.98px;
-  top: 156.81px;
-}
-
-.contact .last {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 237px;
-  top: 657.1px;
-}
-
-.contact .eclipsee {
-  position: absolute;
-  width: 24.14px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 540.69px;
-}
-
-.contact .lastone {
-  position: absolute;
-  width: 30.1px;
-  height: 30.1px;
-  left: 332.18px;
-  top: 550.44px;
-  z-index: 1;
-}
-
-.contact .lp {
-  display: none;
-}
-
 .prompt button:hover {
   background-color: #6070ff;
   color: white;
