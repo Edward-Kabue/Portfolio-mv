@@ -73,7 +73,7 @@ header {
   transition: 0.4s;
 }
 /* stylelint-disable */
-.container {
+.cont {
   border-radius: 1em;
   position: static;
   padding-top: 200px;
@@ -87,7 +87,7 @@ header {
   background-position: right 150px, 139.2px 60.68px, 839px 608px, 1150px 120px;
 }
 /* stylelint-enable */
-.container .lp {
+.cont .lp {
   display: none;
 }
 
@@ -277,7 +277,7 @@ header {
   padding-bottom: 10px;
 }
 
-.about {
+.boot {
   background-color: #fff;
   border-top-right-radius: 100px;
   padding-top: 142px;
