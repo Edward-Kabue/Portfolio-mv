@@ -167,7 +167,7 @@ ul {
 
 .card-rev {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
