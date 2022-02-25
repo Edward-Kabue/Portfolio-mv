@@ -1,10 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-mv
+# Portfolio
 
-> Built the header section of my portfolio using the figma files for the system design
+
+The goal was to be able to parse a Figma design to create a beautiful UI using Flexbox, Grid CSS, images and backgrounds, while sticking to the best practices.using this [design](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1) in figma. You can view the live site [here](https://edward-kabue.github.io/Portfolio-mv/).
 
 ![the design](./images/Header-section.png)
+
 
 ## Built With
 
