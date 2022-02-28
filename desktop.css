@@ -36,12 +36,12 @@ header {
   margin-left: 143px;
 }
 
-.nav-items ul a {
-  color: black;
-}
-
 .logo a {
   color: #6070ff;
+}
+
+.nav-items ul a {
+  color: black;
 }
 
 .nav-items ul {
