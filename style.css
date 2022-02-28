@@ -77,7 +77,6 @@ span.color {
   text-align: start;
   padding: 10px 0;
   color: #fff;
-  display: grid;
   justify-content: space-between;
   font-weight: 600;
   font-size: 32px;
@@ -88,6 +87,7 @@ span.color {
   clip-path: circle(1000px at 90% -10%);
   pointer-events: all;
 }
+
 .toggle {
   color: #fff;
 }
@@ -96,81 +96,16 @@ span.color {
   transform: rotate(-45deg) translate(-5px, 6px);
   background-color: #fff;
 }
+
 .toggle .line2 {
   transition: all 0.7s ease;
   width: 0;
 }
+
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
   background-color: #fff;
 }
-/* header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  padding-bottom: 12px;
-  background-color: #fff;
-}
-
-#logo {
-  font-weight: bold;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  margin-left: 12px;
-}
-
-.nav-items ul a {
-  color: black;
-}
-
-#logo a {
-  color: #6070ff;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-items li {
-  padding: 5px;
-  margin-left: 10px;
-}
-
-.bar {
-  display: none;
-  top: 50px;
-  left: 0;
-  padding-right: 20px;
-  margin-top: 10px;
-}
-
-.bar div {
-  width: 35px;
-  height: 3px;
-  background-color: #acb7c3;
-  margin: 5px 0 5px 28px;
-  transition: 0.4s;
-}
-
-@media only screen and (max-width: 480px) {
-  .nav-items ul {
-    display: grid;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  .bar {
-    display: block;
-    justify-items: end;
-  }
-} */
 
 .cont {
   width: 100%;
