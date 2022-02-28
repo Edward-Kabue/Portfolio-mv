@@ -87,6 +87,7 @@ span.color {
   clip-path: circle(1000px at 90% -10%);
   pointer-events: all;
 }
+
 .toggle {
   color: #fff;
 }
@@ -95,10 +96,12 @@ span.color {
   transform: rotate(-45deg) translate(-5px, 6px);
   background-color: #fff;
 }
+
 .toggle .line2 {
   transition: all 0.7s ease;
   width: 0;
 }
+
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
   background-color: #fff;
