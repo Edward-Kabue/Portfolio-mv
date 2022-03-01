@@ -12,74 +12,99 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  background-color: #fff;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
 header a {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  padding-bottom: 12px;
-  background-color: #fff;
-}
-
-#logo {
+.logo {
+  padding-left: 20px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   margin-left: 12px;
-}
-
-.nav-items ul a {
-  color: black;
-}
-
-#logo a {
   color: #6070ff;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.bars.show {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  z-index: 2;
+  transition: all 0.7s ease;
 }
 
-.nav-items li {
-  padding: 5px;
-  margin-left: 10px;
-}
-
-.bar {
-  display: none;
-  top: 50px;
-  left: 0;
-  padding-right: 20px;
-  margin-top: 10px;
-}
-
-.bar div {
+.bars span {
+  display: block;
   width: 35px;
   height: 3px;
-  background-color: #acb7c3;
+  background-color: #6070ff;
+  border-radius: 1.2rem;
   margin: 5px 0 5px 28px;
   transition: 0.4s;
 }
 
-@media only screen and (max-width: 480px) {
-  header nav {
-    display: none;
-  }
+span.color {
+  color: #fff;
+}
 
-  .bar {
-    display: block;
-    justify-items: end;
-  }
+.nav-items {
+  position: fixed;
+  background: rgb(96, 112, 255);
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  clip-path: circle(50px at 90% -20%);
+  transition: all 1s ease-out;
+  pointer-events: none;
+  margin-top: -45px;
+  opacity: 0.85;
+  padding-top: 80px;
+}
+
+.nav-items li a {
+  display: block;
+  text-align: start;
+  padding: 10px 0;
+  color: #fff;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.nav-items.open {
+  clip-path: circle(1000px at 90% -10%);
+  pointer-events: all;
+}
+
+.toggle {
+  color: #fff;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: #fff;
+}
+
+.toggle .line2 {
+  transition: all 0.7s ease;
+  width: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: #fff;
 }
 
 .cont {
