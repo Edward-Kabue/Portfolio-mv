@@ -1,17 +1,15 @@
 const hamburger = document.querySelector('.bars');
 const navLinks = document.querySelector('.nav-items');
-const lines = document.querySelectorAll('.bars span');
-const links = document.querySelectorAll('.link');
+const links = document.querySelectorAll('.nav-items li');
 
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
   hamburger.classList.toggle('toggle');
-  lines.forEach((line) => {
-    line.classList.toggle('color');
-  });
 });
+
 links.forEach((l) => {
   l.addEventListener('click', () => {
-    navLinks.classList.replace('open', 'bars');
+    hamburger.classList.remove('toggle');
+    navLinks.classList.remove('open');
   });
 });
