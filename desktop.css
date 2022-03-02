@@ -63,6 +63,10 @@ header {
   display: none;
 }
 
+<<<<<<< HEAD
+=======
+/* stylelint-disable */
+>>>>>>> c5ae86adaa77ff68a72f69ab0e018553c699a211
 .cont {
   border-radius: 1em;
   position: static;
