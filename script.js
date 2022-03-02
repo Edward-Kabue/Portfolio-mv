@@ -73,22 +73,22 @@ const projects = [
 ];
 
 // Render functions
-
+/* eslint-disable */
 function renderTechnologies(techArr) {
   let technologiesHtml = "<ul class='sub'>";
   techArr.forEach((tech) => {
     technologiesHtml += `<li class='technology'>${tech}</li>`;
-  });
-  technologiesHtml += '</ul>';
+  }),
+    (technologiesHtml += "</ul>");
   return technologiesHtml;
 }
 
 function renderTechnologiesForModal(techArr) {
   let technologiesHtml = "<ul class='sub'>";
-  techArr.forEach((tech => {
+  techArr.forEach((tech) => {
     technologiesHtml += `<li class='technology'>${tech}</li>`;
-  });
-  technologiesHtml += '</ul>';
+  }),
+    (technologiesHtml += "</ul>");
   return technologiesHtml;
 }
 
@@ -113,8 +113,8 @@ function renderSingleProject(p) {
          </section>
          <section class="prompt">
         <button class='project-details-btn' type='button' data-project-id='${
-  p.id
-}'>See Project</button>
+          p.id
+        }'>See Project</button>
         </section>
     </div>
 </div>
@@ -125,38 +125,41 @@ function renderSingleProject(p) {
 // Render projects dynamically in the HTML document
 projectsContainer.innerHTML = projects
   .map((p) => renderSingleProject(p))
-  .join('');
+  .join("");
 
 // Click event listener to projects buttons;
-const projectDetailsBtns = document.querySelectorAll('.project-details-btn');
+const projectDetailsBtns = document.querySelectorAll(".project-details-btn");
 
 projectDetailsBtns.forEach((btn) => {
-  btn.addEventListener('click', (event) => {
-    const projectId = Number(event.target.getAttribute('data-project-id'));
+  btn.addEventListener("click", (event) => {
+    const projectId = Number(event.target.getAttribute("data-project-id"));
     const projectToShow = projects.find((p) => p.id === projectId);
 
-    popupProject.querySelector('.popup-title').textContent = projectToShow.title;
-    popupProject.querySelector('.sub').textContent = projectToShow.sub;
-    popupProject.querySelector('.popup-image').src = projectToShow.modalPicture;
+    popupProject.querySelector(".popup-title").textContent =
+      projectToShow.title;
+    popupProject.querySelector(".sub").textContent = projectToShow.sub;
+    popupProject.querySelector(".popup-image").src = projectToShow.modalPicture;
     popupProject.querySelectorAll(
-      '.popup-image',
+      ".popup-image"
     ).alt = `Image showing a preview of the project named ${projectToShow.title}`;
-    popupProject.querySelector('.article-e').textContent = projectToShow.description;
-    popupProject.querySelector('.built-with-e').innerHTML = renderTechnologiesForModal(projectToShow.technologies);
-    popupProject.querySelector('.btnw').href = projectToShow.liveLink;
-    popupProject.querySelector('.source').href = projectToShow.codeLink;
+    popupProject.querySelector(".article-e").textContent =
+      projectToShow.description;
+    popupProject.querySelector(".built-with-e").innerHTML =
+      renderTechnologiesForModal(projectToShow.technologies);
+    popupProject.querySelector(".btnw").href = projectToShow.liveLink;
+    popupProject.querySelector(".source").href = projectToShow.codeLink;
 
-    overlayDiv.classList.add('active');
-    popupProject.style.visibility = 'visible';
-    popupProject.style.display = 'block';
+    overlayDiv.classList.add("active");
+    popupProject.style.visibility = "visible";
+    popupProject.style.display = "block";
     popupProject.style.opacity = 1;
 
     // Popup close
-    const popupClose = document.querySelector('.popup-close');
-    popupClose.addEventListener('click', () => {
+    const popupClose = document.querySelector(".popup-close");
+    popupClose.addEventListener("click", () => {
       popupProject.style.opacity = 0;
-      popupProject.style.visibility = 'hidden';
-      overlayDiv.style.display = 'none';
+      popupProject.style.visibility = "hidden";
+      overlayDiv.style.display = "none";
     });
   });
 });
