@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector(".bars");
 const navLinks = document.querySelector(".nav-items");
 const links = document.querySelectorAll(".nav-items li");
@@ -200,12 +201,12 @@ persist.forEach((per) => {
   per.addEventListener("input", () => {
     submitButton.style.marginTop = "-15px";
     messagePanel.style.visibility = "hidden";
-    // Save object
     const objectToSave = {
       name: nameInput.value,
       email: emailInput.value,
       message: textarea.value,
     };
-    save("formData", objectToSave);
+    save("formData", objectToSave)
+
   });
 });
