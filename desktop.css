@@ -63,7 +63,7 @@ header {
   display: none;
 }
 
-/* stylelint-disable */
+
 .cont {
   border-radius: 1em;
   position: static;
@@ -77,7 +77,7 @@ header {
   background-repeat: no-repeat;
   background-position: right 150px, 139.2px 60.68px, 839px 608px, 1150px 120px;
 }
-/* stylelint-enable */
+
 .cont .lp {
   display: none;
 }
