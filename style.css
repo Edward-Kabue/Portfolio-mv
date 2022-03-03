@@ -585,7 +585,6 @@ textarea {
 
 .prompt-e {
   display: flex;
-  margin-top: -10px;
 }
 
 .prompt-e button {
@@ -617,6 +616,14 @@ textarea {
   display: flex;
   margin-left: -60px;
   margin-top: -10px;
+}
+
+.line {
+  border-bottom: 2px solid grey;
+  width: 60%;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .built-with-e li {
