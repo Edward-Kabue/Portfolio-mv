@@ -187,13 +187,13 @@ header {
   margin-bottom: 12px;
 }
 
-.sub {
+.sub-r {
   display: flex;
   margin-bottom: 12px;
   margin-left: 20px;
 }
 
-.sub p {
+.sub-r p {
   padding-top: 10px;
   font-weight: 500;
   font-size: 18px;
@@ -206,7 +206,7 @@ header {
   list-style-type: none;
 }
 
-.sub ul {
+.sub-r ul {
   display: flex;
   font-weight: normal;
   font-size: 18px;
@@ -214,7 +214,7 @@ header {
   list-style-type: circle;
 }
 
-.sub li {
+.sub-r li {
   color: #7a869a;
   display: flex;
   justify-content: space-around;
