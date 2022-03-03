@@ -237,5 +237,5 @@ persist.forEach((per) => {
       message: textarea.value,
     };
     save("formData", objectToSave);
-  }):
+  });
 });
