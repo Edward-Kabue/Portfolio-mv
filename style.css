@@ -226,6 +226,7 @@ span.color {
   margin-bottom: 12px;
   left: 0;
   margin-top: -20px;
+  margin-right: 12px;
 }
 
 .sub-r {
@@ -235,6 +236,7 @@ span.color {
   padding-left: 20px;
   padding-top: 10px;
   margin-bottom: -12px;
+  margin-right: 20px;
 }
 
 .it {
@@ -291,7 +293,7 @@ span.color {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 24px;
   left: 0;
 }
@@ -536,31 +538,27 @@ textarea {
 
 .sub-e {
   display: flex;
-  padding-left: 30px;
+  padding-left: 50px;
   margin-top: -33px;
   list-style-type: none;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .sub-e ul {
   display: flex;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+
   padding-left: 12px;
 }
 
 .it {
   color: #7a869a;
   display: flex;
-  justify-content: space-around;
-  padding-right: 12px;
-  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .modal-body {
@@ -632,6 +630,7 @@ textarea {
   padding-right: 12px;
   padding-bottom: 4px;
   margin-top: 12px;
+  margin-right: 12px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -765,7 +764,7 @@ textarea {
 
 .popup-project {
   position: fixed;
-  top: 35%;
+  top: 50%;
   left: 50%;
   border-radius: 16px;
   transform: translate(-50%, -50%);
