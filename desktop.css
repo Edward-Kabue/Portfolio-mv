@@ -493,6 +493,12 @@ textarea {
   height: 320px;
 }
 
+.sub {
+  display: flex;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
 .modal-header {
   display: flex;
   justify-content: space-between;
