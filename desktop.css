@@ -187,6 +187,12 @@ header {
   margin-bottom: 12px;
 }
 
+.sub {
+  display: flex;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
 .sub-r {
   display: flex;
   margin-bottom: 12px;
@@ -493,17 +499,20 @@ textarea {
   height: 320px;
 }
 
-.sub {
-  display: flex;
-  margin-bottom: 12px;
-  margin-left: 20px;
-}
-
 .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: none;
+}
+
+.modal-card {
+  position: relative;
+  padding: 18px 16px 20px;
+  -webkit-animation-name: slidetop;
+  -webkit-animation-duration: 1s;
+  animation-name: slidetop;
+  animation-duration: 1s;
 }
 
 .modal-header .close-button {
@@ -777,8 +786,6 @@ textarea {
   z-index: 99;
   visibility: hidden;
   opacity: 0;
-  margin-top: 5px;
-  margin-bottom: 77px;
 }
 
 .popup-title {
@@ -801,7 +808,7 @@ textarea {
 }
 
 .popup-image {
-  width: 650px;
+  width: 600px;
   height: auto;
 }
 
