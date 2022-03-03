@@ -187,7 +187,8 @@ span.color {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 88px;
-  width: 90%;
+  width: 343px;
+  height: 713px;
   padding-bottom: 20px;
 }
 
@@ -222,9 +223,22 @@ span.color {
 
 .sub {
   display: flex;
-  padding-left: 20px;
   margin-bottom: 12px;
-  margin-left: 10px;
+  left: 0;
+  margin-top: -20px;
+}
+
+.sub-r {
+  display: flex;
+  left: 0;
+  margin-top: -20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: -12px;
+}
+
+.it {
+  padding-left: 30px;
 }
 
 .sub ul {
@@ -233,9 +247,26 @@ span.color {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  padding-top: 5px;
   padding-left: 12px;
   list-style-type: none;
+}
+.sub-r ul {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 12px;
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+.sub li {
+  padding-left: 12px;
+}
+
+.sub-r li {
+  padding-left: 12px;
 }
 
 .technology {
@@ -253,6 +284,7 @@ span.color {
   font-size: 15px;
   line-height: 24px;
   padding-left: 20px;
+  padding-top: -20px;
 }
 
 .article-e {
@@ -271,6 +303,10 @@ span.color {
   display: none;
 }
 
+.prompt {
+  margin-top: -12px;
+}
+
 .prompt button {
   border: 1px solid;
   border-radius: 8px;
@@ -281,10 +317,10 @@ span.color {
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  padding-top: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
   margin-left: 24px;
 }
 
@@ -480,6 +516,8 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: none;
+  margin-top: -20px;
 }
 
 .title {
@@ -498,15 +536,15 @@ textarea {
 
 .sub-e {
   display: flex;
-  padding-left: 24px;
-  margin-top: -30px;
-}
-
-.sub-e p {
+  padding-left: 30px;
+  margin-top: -33px;
+  list-style-type: none;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .sub-e ul {
@@ -515,18 +553,19 @@ textarea {
   font-size: 13px;
   line-height: 16px;
   padding-left: 12px;
-  list-style-type: circle;
 }
 
-.sub-e li {
+.it {
   color: #7a869a;
   display: flex;
   justify-content: space-around;
   padding-right: 12px;
+  text-decoration: none;
 }
 
 .modal-body {
   display: grid;
+  margin-top: -10px;
 }
 
 #overlay {
@@ -548,13 +587,14 @@ textarea {
 
 .prompt-e {
   display: flex;
+  margin-top: -10px;
 }
 
 .prompt-e button {
   border: 1px solid;
   border-radius: 8px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 12px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -578,6 +618,7 @@ textarea {
   margin-bottom: 12px;
   display: flex;
   margin-left: -60px;
+  margin-top: -10px;
 }
 
 .built-with-e li {
@@ -645,11 +686,15 @@ textarea {
   justify-items: center;
   gap: 3em;
   margin-bottom: 5em;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-.project .screenshot-container img {
+.screenshot-container {
   width: 100%;
   height: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .project .project-title {
@@ -720,8 +765,9 @@ textarea {
 
 .popup-project {
   position: fixed;
-  top: 40%;
+  top: 35%;
   left: 50%;
+  border-radius: 16px;
   transform: translate(-50%, -50%);
   height: auto;
   border: 1px solid #fff;
@@ -759,6 +805,9 @@ textarea {
 
 .popup-image {
   width: 100%;
+  height: auto;
+  left: 16px;
+  margin-right: 16px;
 }
 
 .popup-long-description {
@@ -789,6 +838,26 @@ textarea {
   gap: 10px;
   font-size: 15px;
   line-height: 20px;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #6070ff;
+  opacity: 0.9;
+  z-index: 50;
+  display: none;
+}
+
+.one {
+  overflow: hidden;
+}
+
+.two {
+  overflow: hidden;
 }
 
 .btwn .source-code-btn {
