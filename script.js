@@ -1,74 +1,84 @@
-const hamburger = document.querySelector('.bars');
-const navLinks = document.querySelector('.nav-items');
-const links = document.querySelectorAll('.nav-items li');
+const hamburger = document.querySelector(".bars");
+const navLinks = document.querySelector(".nav-items");
+const links = document.querySelectorAll(".nav-items li");
 
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-  hamburger.classList.toggle('toggle');
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  hamburger.classList.toggle("toggle");
 });
 
 links.forEach((l) => {
-  l.addEventListener('click', () => {
-    hamburger.classList.remove('toggle');
-    navLinks.classList.remove('open');
+  l.addEventListener("click", () => {
+    hamburger.classList.remove("toggle");
+    navLinks.classList.remove("open");
   });
 });
 
 /* eslint-disable no-undef */
-const projectsContainer = document.querySelector('.projects-container');
-const popupProject = document.querySelector('.popup-project');
-const overlayDiv = document.querySelector('.overlay');
+const projectsContainer = document.querySelector(".modal-card");
+const popupProject = document.querySelector(".popup-project");
+const overlayDiv = document.querySelector(".overlay");
 
 const projects = [
   {
     id: 1,
-    title: ' Tonic',
-    sub: 'CANOPY',
-    picture: './images/SnapshootPortfolio-desk.svg',
-    modalPicture: './images/modal.png',
+    title: " Tonic",
+    sub: "CANOPY",
+    picture: "./images/SnapshootPortfolio-desk.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'css', 'javascript'],
-    types: ['Back End Dev', '2015'],
-    liveLink: 'https://google.com',
-    codeLink: 'https://github.com',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    descriptionw:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  ",
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "https://google.com",
+    codeLink: "https://github.com",
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
-    sub: 'FACEBOOK',
-    picture: './images/second.svg',
-    modalPicture: './images/modal.png',
+    title: "Multi-Post Stories",
+    sub: "FACEBOOK",
+    picture: "./images/second.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    types: ['Back End Dev', '2015'],
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: '#',
-    codeLink: '#',
+      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    descriptionw:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when   ",
+    type: ["Back end  ", "2015"],
+    technologies: ["html", "css", "javascript"],
+    liveLink: "#",
+    codeLink: "#",
   },
   {
     id: 3,
-    title: 'Facebook 360',
-    sub: 'FACEBOOK',
-    picture: './images/Snapshoot-Portfolio.svg',
-    modalPicture: './images/modal.png',
+    title: "Facebook 360",
+    sub: "FACEBOOK",
+    picture: "./images/Snapshoot-Portfolio.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A single page application that helps managing books by saving them in the LocalStorage.',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: '#',
-    codeLink: '#',
+      "A single page application that helps managing books by saving them in the LocalStorage.",
+    descriptionw:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  ",
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "#",
+    codeLink: "#",
   },
   {
     id: 4,
-    title: 'Uber Navigation',
-    sub: 'Uber',
-    picture: './images/second.svg',
-    modalPicture: './images/modal.png',
+    title: "Uber Navigation",
+    sub: "Uber",
+    picture: "./images/second.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: '#',
-    codeLink: '#',
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    descriptionw:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when   ",
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "#",
+    codeLink: "#",
   },
 ];
 
@@ -83,13 +93,31 @@ function renderTechnologies(techArr) {
   return technologiesHtml;
 }
 
+function renderOther(otherArr) {
+  let otherHtml = "<ul >";
+  otherArr.forEach((t) => {
+    otherHtml += `<li >${t}</li>`;
+  }),
+    (otherHtml += "</ul>");
+  return otherHtml;
+}
+
 function renderTechnologiesForModal(techArr) {
-  let technologiesHtml = "<ul class='sub'>";
+  let technologiesHtml = "<ul >";
   techArr.forEach((tech) => {
     technologiesHtml += `<li class='technology'>${tech}</li>`;
   }),
     (technologiesHtml += "</ul>");
   return technologiesHtml;
+}
+
+function renderOtherModal(otherArr) {
+  let otherHtml = "<ul >";
+  otherArr.forEach((t) => {
+    otherHtml += `<li class= 'it'>${t}</li>`;
+  }),
+    (otherHtml += "</ul>");
+  return otherHtml;
 }
 
 function renderSingleProject(p) {
@@ -102,15 +130,16 @@ function renderSingleProject(p) {
 </div>
  <section class="two">
     <h2 class="title">${p.title}</h2>
-         <div class="sub">${p.sub}
+         <div class="sub-r">${p.sub}
+        ${renderOther(p.type)}
          </div>
-       
-        <div class='article'>
+         <div class='article'>
             <p>${p.description}</p>
         </div>
         <section class="built-with">
         ${renderTechnologies(p.technologies)}
          </section>
+         
          <section class="prompt">
         <button class='project-details-btn' type='button' data-project-id='${
           p.id
@@ -122,12 +151,10 @@ function renderSingleProject(p) {
   return projectHtml;
 }
 
-// Render projects dynamically in the HTML document
 projectsContainer.innerHTML = projects
   .map((p) => renderSingleProject(p))
   .join("");
 
-// Click event listener to projects buttons;
 const projectDetailsBtns = document.querySelectorAll(".project-details-btn");
 
 projectDetailsBtns.forEach((btn) => {
@@ -138,18 +165,22 @@ projectDetailsBtns.forEach((btn) => {
     popupProject.querySelector(".popup-title").textContent =
       projectToShow.title;
     popupProject.querySelector(".sub").textContent = projectToShow.sub;
+    popupProject.querySelector(".sub-e").innerHTML = renderOtherModal(
+      projectToShow.type
+    );
     popupProject.querySelector(".popup-image").src = projectToShow.modalPicture;
+
     popupProject.querySelectorAll(
       ".popup-image"
     ).alt = `Image showing a preview of the project named ${projectToShow.title}`;
     popupProject.querySelector(".article-e").textContent =
-      projectToShow.description;
+      projectToShow.descriptionw;
     popupProject.querySelector(".built-with-e").innerHTML =
       renderTechnologiesForModal(projectToShow.technologies);
     popupProject.querySelector(".btnw").href = projectToShow.liveLink;
     popupProject.querySelector(".source").href = projectToShow.codeLink;
 
-    overlayDiv.classList.add("active");
+    overlayDiv.style.display = "block";
     popupProject.style.visibility = "visible";
     popupProject.style.display = "block";
     popupProject.style.opacity = 1;
@@ -184,4 +215,27 @@ contactForm.addEventListener("submit", (e) => {
     messagePanel.style.visibility = "hidden";
     contactForm.submit();
   }
+});
+
+const save = (key, data) => localStorage.setItem(key, JSON.stringify(data));
+const retrieve = (key) => JSON.parse(localStorage.getItem(key));
+const saved = retrieve("formData");
+if (saved !== null) {
+  nameInput.value = saved.name;
+  emailInput.value = saved.email;
+  textarea.value = saved.message;
+}
+
+const persist = document.querySelectorAll("input, textarea");
+persist.forEach((per) => {
+  per.addEventListener("input", () => {
+    submitButton.style.marginTop = "-15px";
+    messagePanel.style.visibility = "hidden";
+    const objectToSave = {
+      name: nameInput.value,
+      email: emailInput.value,
+      message: textarea.value,
+    };
+    save("formData", objectToSave);
+  });
 });
