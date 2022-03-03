@@ -15,8 +15,7 @@ links.forEach((l) => {
 });
 
 /* eslint-disable no-undef */
-
-const projectsContainer = document.querySelector(".modal-card");
+const projectsContainer = document.querySelector(".projects-container");
 const popupProject = document.querySelector(".popup-project");
 const overlayDiv = document.querySelector(".overlay");
 
