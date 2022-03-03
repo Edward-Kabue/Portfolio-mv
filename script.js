@@ -236,6 +236,7 @@ persist.forEach((per) => {
       email: emailInput.value,
       message: textarea.value,
     };
+    
     save("formData", objectToSave);
   });
 });
