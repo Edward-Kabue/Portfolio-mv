@@ -1,84 +1,85 @@
-const hamburger = document.querySelector('.bars');
-const navLinks = document.querySelector('.nav-items');
-const links = document.querySelectorAll('.nav-items li');
+const hamburger = document.querySelector(".bars");
+const navLinks = document.querySelector(".nav-items");
+const links = document.querySelectorAll(".nav-items li");
 
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-  hamburger.classList.toggle('toggle');
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  hamburger.classList.toggle("toggle");
 });
 
 links.forEach((l) => {
-  l.addEventListener('click', () => {
-    hamburger.classList.remove('toggle');
-    navLinks.classList.remove('open');
+  l.addEventListener("click", () => {
+    hamburger.classList.remove("toggle");
+    navLinks.classList.remove("open");
   });
 });
 
 /* eslint-disable no-undef */
-const projectsContainer = document.querySelector('.modal-card');
-const popupProject = document.querySelector('.popup-project');
-const overlayDiv = document.querySelector('.overlay');
+
+const projectsContainer = document.querySelector(".modal-card");
+const popupProject = document.querySelector(".popup-project");
+const overlayDiv = document.querySelector(".overlay");
 
 const projects = [
   {
     id: 1,
-    title: ' Tonic',
-    sub: 'CANOPY',
-    picture: './images/SnapshootPortfolio-desk.svg',
-    modalPicture: './images/modal.png',
+    title: " Tonic",
+    sub: "CANOPY",
+    picture: "./images/SnapshootPortfolio-desk.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     descriptionw:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  ",
-    technologies: ['html', 'css', 'javascript'],
-    type: ['Back end  ', '2015'],
-    liveLink: 'https://google.com',
-    codeLink: 'https://github.com',
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "https://google.com",
+    codeLink: "https://github.com",
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
-    sub: 'FACEBOOK',
-    picture: './images/second.svg',
-    modalPicture: './images/modal.png',
+    title: "Multi-Post Stories",
+    sub: "FACEBOOK",
+    picture: "./images/second.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     descriptionw:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when   ",
-    type: ['Back end  ', '2015'],
-    technologies: ['html', 'css', 'javascript'],
-    liveLink: '#',
-    codeLink: '#',
+    type: ["Back end  ", "2015"],
+    technologies: ["html", "css", "javascript"],
+    liveLink: "#",
+    codeLink: "#",
   },
   {
     id: 3,
-    title: 'Facebook 360',
-    sub: 'FACEBOOK',
-    picture: './images/Snapshoot-Portfolio.svg',
-    modalPicture: './images/modal.png',
+    title: "Facebook 360",
+    sub: "FACEBOOK",
+    picture: "./images/Snapshoot-Portfolio.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A single page application that helps managing books by saving them in the LocalStorage.',
+      "A single page application that helps managing books by saving them in the LocalStorage.",
     descriptionw:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  ",
-    technologies: ['html', 'css', 'javascript'],
-    type: ['Back end  ', '2015'],
-    liveLink: '#',
-    codeLink: '#',
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "#",
+    codeLink: "#",
   },
   {
     id: 4,
-    title: 'Uber Navigation',
-    sub: 'Uber',
-    picture: './images/second.svg',
-    modalPicture: './images/modal.png',
+    title: "Uber Navigation",
+    sub: "Uber",
+    picture: "./images/second.svg",
+    modalPicture: "./images/modal.png",
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     descriptionw:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when   ",
-    technologies: ['html', 'css', 'javascript'],
-    type: ['Back end  ', '2015'],
-    liveLink: '#',
-    codeLink: '#',
+    technologies: ["html", "css", "javascript"],
+    type: ["Back end  ", "2015"],
+    liveLink: "#",
+    codeLink: "#",
   },
 ];
 
